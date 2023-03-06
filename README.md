@@ -11,14 +11,19 @@ git clone -b yuki 'https://github.com/Rigyuki/Ghost.git'
 
 # git下拉历史版本
 git log                    [找到commit id]
+
 git checkout 3d1adadacq23e2w1e2w21e2s2s    [后面的是commit id号]
 
 
 # git创建新分支并上传代码
 git checkout -b [branch name]         [创建分支的同时切换到该分支上]
+
 git push origin [branch name]         [将新分支推送到github]
+
 例如
+
 $ git checkout -b gh-dev
+
 Switched to branch 'gh-dev'
 
 # git删除分支
